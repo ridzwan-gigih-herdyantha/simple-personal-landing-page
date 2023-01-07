@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* NAVBAR  */
+nav {
+    margin: 0px 50px 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bolder;
+    padding:20px 0 20px 0;
+}
+.out-menu{
+    display: flex;
+}
+.menu a{
+    margin-left: 60px;
+    color: white;
+    text-decoration: none;
+    font-size: smaller;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.judul-web{
+    display: flex;
+    font: bolder ;
+    font-size: large;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color:white;
+    border: solid white 2px;
+    border-radius: 20%;
+    padding: 5px;
+}
+.navbar{
+    background-color: rgb(161, 161, 255) ;
+}
+/* NAVBAR SELESAI  */
+/* SECT 1 */
+.struktur-sect1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+}
+.perkenalan-sect1{
+    margin: 100px;
+
+    width: 100%;
+    padding: 10px 20px 10px 20px; 
+}
+.penjelasan-intro{
+    font-size: medium;
+    line-height: 25px;
+    font-weight: lighter;
+    font-weight: 500;
+    padding:10px;
+    width: 450px;
+}
+.penutup-intro{
+    margin-top: 10px ;
+    text-align: center;
+    font-weight:600;
+    font-size: large;
+}
+.judul-intro{
+    font-size: xx-large;
+    font-weight: bolder; 
+    margin-bottom: 15px;
+    font-size: xx-large;
+    background-color: rgb(161, 161, 255) ;
+    width: 100%;
+    padding: 10px;
+    color: white;
+}
+.gambar-sect1 img{
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+/* SECT 1 SELESAI  */
+/* SECT2  */
+.struktur-sect2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.judul-sect2{
+    background-color: rgb(161, 161, 255);
+    text-align: center;
+    padding: 10px;
+    font-size: x-large;
+    color: white;
+    font-weight: bold;
+    margin: 0 100px 0 100px;
+}
+.deskripsi-sect2{
+    margin-top: 50px;
+    margin-left: 150px;
+    font-weight: bold;
+    font-size:large;
+}
+.contact{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top:30px;
+}
+.contact-card{
+    display: flex;
+    flex-direction: row;
+    border: solid 3px rgb(161, 161, 255);
+    padding: 40px 80px 40px 80px;
+}
+.in-card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.in-card p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.in-card img{
+    align-items: center;
+    display: flex;
+    margin-top: 10px;
+}
+.contact a {
+    text-decoration: none;
+    font-weight: 600;
+}
+/* SECT 2 SELESAI  */
+/* SECT 3  */
+.judul-sect3{
+    background-color: rgb(161, 161, 255);
+    text-align: center;
+    padding: 10px;
+    font-size: x-large;
+    color: white;
+    font-weight: bold;
+    margin: 100px 100px 0 100px;
+}
+.isi-sect3{
+    margin: 50px 200px 20px 200px; 
+}
+.penjelasan-sect3{
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+.penjelasan-isi-sect3{
+
+}
+.judul-isi-sect3{
+    font-size: xx-large;
+    font-weight: 600;
+    margin-left: 250px ;
+}
+.in-isi-sect3{
+    margin : 20px 0 30px 30px;
+
+}
+.in-isi-sect3 p{
+    font-size: medium; 
+    margin-top: 5px;
+}
+.in-isi-sect3 h3{
+    font-size: large;
+}
+.list-project{
+    list-style: none;
+    margin-top: 80px;
+    margin-left: 30PX;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: large;
+}
+.list-project li {
+    margin-right:40px;
+    justify-content: center;
+}
+.judul-project-sect3 {
+    font-size: xx-large;
+    font-weight: 600;
+    margin-left: 250px ;
+    margin-top: 100px;
+}
+footer div {
+    margin: 0px 50px 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    padding:10px 0 10px 0;
+    font-size: small;
+}
+footer {
+    background-color: rgb(161, 161, 255);
+    color: white;
+}
