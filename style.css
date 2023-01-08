@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 html{
     scroll-behavior: smooth;
@@ -20,11 +21,8 @@ nav {
 }
 .menu a{
     margin-left: 60px;
-    color: white;
     text-decoration: none;
-    font-size: smaller;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    
 }
 .judul-web{
     display: flex;
@@ -55,12 +53,11 @@ nav {
     padding: 10px 20px 10px 20px; 
 }
 .penjelasan-intro{
-    font-size: medium;
     line-height: 25px;
-    font-weight: lighter;
     font-weight: 500;
     padding:10px;
     width: 450px;
+    text-transform: xx-large;
 }
 .penutup-intro{
     margin-top: 10px ;
@@ -118,6 +115,7 @@ nav {
     flex-direction: row;
     border: solid 3px rgb(161, 161, 255);
     padding: 40px 80px 40px 80px;
+    transition: all .5s ease-in-out;    
 }
 .in-card{
     display: flex;
@@ -158,7 +156,7 @@ nav {
     justify-content: space-between;
 }
 .penjelasan-isi-sect3{
-
+    
 }
 .judul-isi-sect3{
     font-size: xx-large;
@@ -184,6 +182,7 @@ nav {
     justify-content: center;
     font-weight: 600;
     font-size: large;
+    width: max-content;
 }
 .list-project li {
     margin-right:40px;
@@ -208,3 +207,32 @@ footer {
     background-color: rgb(161, 161, 255);
     color: white;
 }
+/* TRANSITION */
+    .menu-sub{
+        transition: all .5s ease-in-out;
+        color: white;
+        font-size: medium;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border: 2px solid white ;
+        background-color: rgb(161, 161, 255);
+        font-weight: bold;
+        padding: 5px 10px 5px 10px;
+    }
+    /* hover transform  */
+    .menu-sub:hover{
+        transform: scale(1.3);
+        background-color: white;
+        color: rgb(161, 161, 255);
+        box-shadow: 0px 4px 8px 0px rgb(224, 224, 224);
+    }
+    /* hover transform end  */
+    /* sect 2 transform  */
+    .contact-card:hover{
+        transform: scale(1.1);
+        background-color: rgb(161, 161, 255);
+        color: white;
+        box-shadow: 0px 4px 8px 0px rgb(224, 224, 224);
+    }
+    /* sect 2 transform  end*/
+/* TRANSITION END */
