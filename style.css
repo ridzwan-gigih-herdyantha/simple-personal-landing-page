@@ -4,27 +4,27 @@
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
-html{
+/* html{
     scroll-behavior: smooth;
-}
+} */
 /* NAVBAR  */
-nav {
+/* nav {
     margin: 0px 50px 0 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-weight: bolder;
     padding:20px 0 20px 0;
-}
-.out-menu{
+} */
+/* .out-menu{
     display: flex;
-}
-.menu a{
+} */
+/* .menu a{
     margin-left: 60px;
     text-decoration: none;
     
-}
-.judul-web{
+} */
+/* .judul-web{
     display: flex;
     font: bolder ;
     font-size: large;
@@ -34,10 +34,10 @@ nav {
     border: solid white 2px;
     border-radius: 20%;
     padding: 5px;
-}
-.navbar{
-    background-color: rgb(161, 161, 255) ;
-}
+} */
+/* .navbar{
+    background-color: rgb(20, 20, 178) ;
+} */
 /* NAVBAR SELESAI  */
 /* SECT 1 */
 .struktur-sect1 {
